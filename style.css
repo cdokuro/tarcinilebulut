@@ -1,0 +1,8 @@
+:root{--bg:#fdf8ee;--ink:#4a2e16;--accent:#c8642c;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#1f1a15;--ink:#f3e6d6;--accent:#f0a06a;--card:#2a231c}}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px}
+h1{color:var(--accent);margin-bottom:4px}
+section{background:var(--card);border-radius:14px;padding:16px 20px;margin:18px 0}
+a{color:var(--accent)}
+footer{font-size:14px;opacity:.75;margin-top:28px}
